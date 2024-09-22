@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.info-ong-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+   
+  }
+  
+  .info-ong-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 19px;
+    width: 45%; 
+  }
+  
+  .info-ong-text h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    color: #b769c6; 
+    font-size: 2.5em; 
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto do h1 */
+  }
+  
+  .info-ong-text p {
+    font-size: 17px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+  }
+  
+  /* Estilos para a imagem */
+  .info-ong-image {
+    width: 25%; /* Ajuste a largura conforme necessário */
+    border-radius: 10px; /* Cantos arredondados para a imagem */
+    overflow: hidden; /* Para garantir que os cantos arredondados sejam aplicados */
+  }
+  
+  .info-ong-image img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove o espaço extra abaixo da imagem */
+  }
+  
+  /* Estilos para o botão */
+  .info-ong-text button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+  }
+  

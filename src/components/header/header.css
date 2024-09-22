@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(to right, #b56ac6, #dea0eb); /* Degradê de roxo para rosa */
+  height: 88px;
+  padding: 0 20px;
+  width: 100%;
+  z-index: 100; 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.logo-name {
+  display: flex;
+  align-items: center; 
+}
+
+.logo-name img {
+  width: 100px; 
+  margin-right: 20px;
+ 
+}
+
+.logo-name h2 {
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+  font-size: 30px; 
+}
+
+.menu a {
+  color: white; 
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #e9d3f2; 
+}

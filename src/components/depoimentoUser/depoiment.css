@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.depoimentos {
+  width: 100%;
+  margin: 34px auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif; /* Usando a fonte Lato */
+}
+
+.depoimentos h2 {
+  color: #b76bbd;
+  font-size: 2.5em; /* Aumentando o tamanho do título */
+  margin-bottom: 20px;
+}
+
+.depoimento-container {
+  width: 63%;
+  margin: 20px auto;
+  text-align: left;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
+  border-radius: 15px; /* Cantos mais arredondados */
+  padding: 30px; /* Mais espaçamento interno */
+  background-color: #f2f2f2; /* Fundo branco mais suave */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.depoimento {
+  background-color: #ffffff; /* Fundo branco puro */
+  border: none; /* Removendo a borda */
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais presente */
+}
+
+.depoimento p {
+  font-size: 1.2em; /* Texto um pouco maior */
+  line-height: 1.7; /* Melhorando a legibilidade */
+  color: #333; /* Cinza escuro para o texto */
+}
+
+.depoimento span {
+  font-style: italic;
+  color: #777; /* Cinza claro para o nome */
+  display: block;
+  margin-top: 15px;
+  font-size: 1em; /* Ajustando o tamanho da fonte do nome */
+}
+
+.controles {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botaoAnterior,
+.botaoProximo {
+  background-color: #b66ac6;
+  color: white; /* Texto branco */
+  border: none;
+  padding: 12px 25px; /* Botões maiores */
+  margin: 0 15px;
+  border-radius: 8px; /* Cantos mais arredondados */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Lato', sans-serif; /* Usando a fonte Lato */
+}
+
+.botaoAnterior:hover,
+.botaoProximo:hover {
+  background-color: #9345b4; /* Roxo mais escuro e vibrante */
+}

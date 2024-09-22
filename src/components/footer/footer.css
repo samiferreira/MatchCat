@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.footer {
+    background-color: #f2f2f2; 
+    padding: 30px 0; 
+    text-align: center; 
+    margin-top: 50px;
+  }
+  
+  .container {
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+  }
+  
+  .ong-info {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .ong-info h2 {
+    color:#ae6bc4; 
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ong-info p {
+    color: #333;
+    font-size: 16px; 
+    margin-bottom: 5px; 
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color:#ae6bc4; 
+    text-decoration: none;
+  }
+  
+  
