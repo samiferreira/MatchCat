@@ -29,7 +29,7 @@ const CatCard = () => {
   };
 
   const handleCatAdoption = (catId) => {
-    // Remove o gato adotado da lista
+  
     setCats(cats.filter(cat => cat.id !== catId));
   };
 
@@ -54,7 +54,7 @@ const CatCard = () => {
         <Modal 
           cat={selectedCat} 
           onClose={handleCloseModal} 
-          onAdopt={handleCatAdoption} // Passa a função para o Modal
+          onAdopt={handleCatAdoption} 
         />
       )}
     </div>
