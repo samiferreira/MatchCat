@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './depoiment.css';
@@ -8,13 +7,19 @@ function Depoimento() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const apiPrefix = 'http://localhost:4000';
 
+  
+  const fetchUsers = async () => {
+    try {
+      const response = await axios.get(`${apiPrefix}/user`);
+      setUsers(response.data);
+    } catch (error) {
+      console.error("Erro ao buscar dados dos usuários:", error);
+    }
+  };
+
   useEffect(() => {
-    axios.get(`${apiPrefix}/user`)
-      .then(response => {
-        setUsers(response.data);
-      })
-      .catch(error => console.error("Erro ao buscar dados dos usuários:", error));
-  }, [apiPrefix]);
+    fetchUsers();
+  }, [apiPrefix]); 
 
   const nextDepoimento = () => {
     setCurrentIndex((currentIndex + 1) % users.length);
@@ -37,7 +42,7 @@ function Depoimento() {
 
           <div className="controles">
             <button className='botaoAnterior' onClick={prevDepoimento}>Anterior</button>
-            <button  className='botaoProximo'   onClick={nextDepoimento}>Próximo</button>
+            <button className='botaoProximo' onClick={nextDepoimento}>Próximo</button>
           </div>
         </div>
       ) : (
