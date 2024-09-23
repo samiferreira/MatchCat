@@ -8,7 +8,7 @@ const Modal = ({ cat, onClose, onAdopt }) => {
     onClose();
     onAdopt(cat.id); 
   };
-
+  
   return (
     <div className="modal">
       <div className="modal-content">
