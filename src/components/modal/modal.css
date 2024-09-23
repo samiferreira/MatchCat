@@ -25,7 +25,7 @@
   float: right;
   font-size: 28px;
   font-weight: bold;
-  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  cursor: pointer; 
 }
 
 .close:hover,
@@ -35,7 +35,7 @@
 }
 
 h2 {
-  color: #b76bbd; /* Cor do título */
+  color: #b76bbd; 
   text-align: center;
   margin-bottom: 20px;
 }
