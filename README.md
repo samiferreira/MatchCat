@@ -20,7 +20,7 @@ Navbar: Menu de navegação com o titulo
 ![image](https://github.com/user-attachments/assets/afd687eb-593b-4206-b1f6-2698e850ca43)
 
 
-Seção de Apresentação: Conteúdo envolvente que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
+Seção de Apresentação: Conteúdo que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
 
 ![image](https://github.com/user-attachments/assets/0434a4b2-74cb-4783-9582-5811bc153e36)
 
