@@ -61,14 +61,16 @@ Instale as dependências em ambos os projetos:
 npm install
 
 2. Configuração do Backend:
-nao se esqueça de instalar o cors para o back 
-e o axios para o front
+certifique que o cors para o back 
+e o axios para o front estejam instalados. 
 
 CORS: Configure o CORS no arquivo server.js do backend para permitir requisições vindas do seu frontend.
-const cors = require('cors');
+import cors from "cors"
+
 app.use(cors({
     origin: 'http://localhost:5173' // Substitua pela URL do seu frontend
 }));
+
 3. Inicializando o Projeto:
 
 Inicie o servidor do backend:
@@ -79,8 +81,9 @@ npm run dev
 4. Acesse a Aplicação:
 
 Abra seu navegador e acesse http://localhost:5173 (ou a porta definida no seu projeto).
-Repositório da API:
+ou um ctrl click no link da porta no terminal
 
+Repositório da API:
 Backend: https://github.com/samiferreira/Fiv-Felv-Cats
 
 publicação da aplicação no linkedin https://www.linkedin.com/posts/samira-ferreira-887a081a0_frontend-backend-sobre-activity-7244045180956295168-t3Z8?utm_source=share&utm_medium=member_desktop
