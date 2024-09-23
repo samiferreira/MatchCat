@@ -16,11 +16,17 @@ Express.js: v4.20.0
 #Sobre a aplicação:
 
 Navbar: Menu de navegação com o titulo
+
 Seção de Apresentação: Conteúdo envolvente que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
+
 Cards de Gatos: Galeria com fotos e informações individuais de cada gato disponível para adoção.
+
 Modal "Adotar": Botão em cada card que abre um modal solicitando as informaçoes do usuario que deseja adotar.
+
 Depoimentos: Seção inspiradora com relatos de pessoas que adotaram gatos FIV+ e FeLV+, mostrando a beleza da experiência.
+
 Footer: Contém informações de contato da ONG, links para redes sociais e políticas de privacidade.
+
 Passo a Passo para Execução do Projeto:
 
 1. Configuração do Ambiente:
@@ -28,8 +34,8 @@ Passo a Passo para Execução do Projeto:
 Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 Clone os repositórios do frontend e do backend:
-git clone https://github.com/seu-usuario/frontend-adocao-gatos.git
 git clone https://github.com/samiferreira/Fiv-Felv-Cats.git
+https://github.com/samiferreira/MatchCat
 
 Acesse as pastas dos projetos:
 cd frontend-adocao-gatos
@@ -59,3 +65,6 @@ Abra seu navegador e acesse http://localhost:5173 (ou a porta definida no seu pr
 Repositório da API:
 
 Backend: https://github.com/samiferreira/Fiv-Felv-Cats
+
+
+publicação da aplicação no linkedin https://www.linkedin.com/posts/samira-ferreira-887a081a0_frontend-backend-sobre-activity-7244045180956295168-t3Z8?utm_source=share&utm_medium=member_desktop
