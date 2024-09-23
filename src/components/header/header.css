@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 *{
   padding: 0;
   margin: 0;
@@ -9,7 +8,7 @@
 }
 
 .header {
-  background: linear-gradient(to right, #b56ac6, #dea0eb); /* Degradê de roxo para rosa */
+  background: linear-gradient(to right, #b56ac6, #dea0eb); 
   height: 88px;
   padding: 0 20px;
   width: 100%;
