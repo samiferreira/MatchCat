@@ -22,14 +22,26 @@ Navbar: Menu de navegação com o titulo
 
 Seção de Apresentação: Conteúdo envolvente que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
 
+![image](https://github.com/user-attachments/assets/0434a4b2-74cb-4783-9582-5811bc153e36)
+
+
 
 Cards de Gatos: Galeria com fotos e informações individuais de cada gato disponível para adoção.
+![image](https://github.com/user-attachments/assets/009b9c9d-b650-47a7-aa3e-96e5c4afe49e)
+
 
 Modal "Adotar": Botão em cada card que abre um modal solicitando as informaçoes do usuario que deseja adotar.
+![image](https://github.com/user-attachments/assets/055bac65-c5da-4c3e-9897-06cd1ce25438)
+
 
 Depoimentos: Seção inspiradora com relatos de pessoas que adotaram gatos FIV+ e FeLV+, mostrando a beleza da experiência.
+![image](https://github.com/user-attachments/assets/4f6d336d-092a-4a8e-8cb4-d6863d9c9993)
+
+
 
 Footer: Contém informações de contato da ONG, links para redes sociais e políticas de privacidade.
+![image](https://github.com/user-attachments/assets/0b4dc267-58f1-48d7-a4e8-8b405ba28dbb)
+
 
 Passo a Passo para Execução do Projeto:
 
