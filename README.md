@@ -61,7 +61,8 @@ Instale as dependências em ambos os projetos:
 npm install
 
 2. Configuração do Backend:
-nao se esqueça de instalar o cors e nem o axios para o front
+nao se esqueça de instalar o cors para o back 
+e o axios para o front
 
 CORS: Configure o CORS no arquivo server.js do backend para permitir requisições vindas do seu frontend.
 const cors = require('cors');
