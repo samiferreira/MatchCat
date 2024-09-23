@@ -26,34 +26,33 @@
     color: #b769c6; 
     font-size: 2.5em; 
     margin-bottom: 20px;
-    text-align: center; /* Centraliza o texto do h1 */
+    text-align: center;
   }
   
   .info-ong-text p {
-    font-size: 17px; /* Tamanho da fonte do parágrafo */
-    line-height: 1.6; /* Espaçamento entre linhas */
+    font-size: 17px; 
+    line-height: 1.6; 
   }
   
-  /* Estilos para a imagem */
+ 
   .info-ong-image {
-    width: 25%; /* Ajuste a largura conforme necessário */
-    border-radius: 10px; /* Cantos arredondados para a imagem */
-    overflow: hidden; /* Para garantir que os cantos arredondados sejam aplicados */
+    width: 25%; 
+    border-radius: 10px; 
+    overflow: hidden; 
   }
   
   .info-ong-image img {
     width: 100%;
     height: auto;
-    display: block; /* Remove o espaço extra abaixo da imagem */
-  }
+    display: block; }
   
-  /* Estilos para o botão */
+ 
   .info-ong-text button {
     border: none;
     padding: 15px 30px;
     font-size: 1.1em;
-    border-radius: 20px; /* Cantos arredondados */
+    border-radius: 20px; 
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transição suave */
+    transition: background-color 0.3s ease; 
   }
   
