@@ -8,6 +8,7 @@ Tecnologias Utilizadas:
 
 React: 18.3.1,
 Vite: 5.4.1
+Axios: Para realizar requisições HTTP à API.
 
 #Backend:
 Node.js: v16.20.2
