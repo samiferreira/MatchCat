@@ -66,5 +66,4 @@ Repositório da API:
 
 Backend: https://github.com/samiferreira/Fiv-Felv-Cats
 
-
 publicação da aplicação no linkedin https://www.linkedin.com/posts/samira-ferreira-887a081a0_frontend-backend-sobre-activity-7244045180956295168-t3Z8?utm_source=share&utm_medium=member_desktop
