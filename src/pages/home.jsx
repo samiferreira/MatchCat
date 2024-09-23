@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../components/header/header';
 import BodyCard from '../components/bodyCard/bodyCard';
 import InfoOng from '../components/infoOng/infoOng';
-import CatCard from '../components/Catcard/Catcard';
 import Footer from '../components/footer/footer';
 import Depoimento from '../components/depoimentoUser/depoiment';
+import CatCard from '../components/Catcard/Catcard';
 
 
 function Home() {

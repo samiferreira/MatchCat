@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './CatCard.css';
+import './catCard.css';
 import Modal from '../modal/modal';
 
 const CatCard = () => {
@@ -9,7 +9,7 @@ const CatCard = () => {
 
   const fetchCats = async () => {
     try {
-      const response = await axios.get('http://localhost:4000/cat');
+      const response = await axios.get('https://fiv-felv-cats.onrender.com/cat');
       setCats(response.data.cat);
     } catch (error) {
       console.error('Erro ao buscar gatos:', error);
