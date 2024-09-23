@@ -2,7 +2,7 @@
 
 .depoimentos {
   width: 100%;
-  margin: 34px auto;
+  margin: 48px auto;
   text-align: center;
   font-family: 'Lato', sans-serif;  
 }
@@ -20,14 +20,14 @@
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
   border-radius: 15px; 
   padding: 30px;
-  background-color: #f2f2f2;
+  background-color: #be95be;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .depoimento {
-  background-color: #ffffff; 
+  background-color: #efe2e2; 
   border: none; 
   padding: 25px;
   margin-bottom: 20px;
@@ -57,7 +57,7 @@
 .botaoAnterior,
 .botaoProximo {
   background-color: #b66ac6;
-  color: white; 
+  color: black; 
   border: none;
   padding: 12px 25px; 
   margin: 0 15px;
