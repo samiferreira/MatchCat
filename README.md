@@ -15,7 +15,7 @@ Express.js: v4.20.0
 
 #Sobre a aplicação:
 
-Navbar: Menu de navegação com o titulo 
+Navbar: Menu de navegação com o titulo
 Seção de Apresentação: Conteúdo envolvente que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
 Cards de Gatos: Galeria com fotos e informações individuais de cada gato disponível para adoção.
 Modal "Adotar": Botão em cada card que abre um modal solicitando as informaçoes do usuario que deseja adotar.
@@ -26,15 +26,20 @@ Passo a Passo para Execução do Projeto:
 1. Configuração do Ambiente:
 
 Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+
 Clone os repositórios do frontend e do backend:
 git clone https://github.com/seu-usuario/frontend-adocao-gatos.git
 git clone https://github.com/samiferreira/Fiv-Felv-Cats.git
+
 Acesse as pastas dos projetos:
 cd frontend-adocao-gatos
 cd Fiv-Felv-Cats
+
 Instale as dependências em ambos os projetos:
 npm install
+
 2. Configuração do Backend:
+nao se esqueça de instalar o cors e nem o axios para o front
 
 CORS: Configure o CORS no arquivo server.js do backend para permitir requisições vindas do seu frontend.
 const cors = require('cors');
@@ -47,6 +52,7 @@ Inicie o servidor do backend:
 npm run dev
 Em um novo terminal, inicie o servidor do frontend:
 npm run dev
+
 4. Acesse a Aplicação:
 
 Abra seu navegador e acesse http://localhost:5173 (ou a porta definida no seu projeto).
