@@ -2,9 +2,6 @@ import React from 'react';
 import './bodyCard.css'
 import Gato from '../../image/gatinho.png'; 
 
-
-
-
 function Body() {
 
   return (
