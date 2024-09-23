@@ -6,7 +6,7 @@ import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   const [ong, setOng] = useState({});
-  const apiPrefix = 'https://fiv-felv-cats.onrender.com';
+  const apiPrefix = 'http://localhost:4000';
 
 
   const fetchOngInfo = async () => {

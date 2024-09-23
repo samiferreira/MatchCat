@@ -9,7 +9,7 @@ const CatCard = () => {
 
   const fetchCats = async () => {
     try {
-      const response = await axios.get('https://fiv-felv-cats.onrender.com/cat');
+      const response = await axios.get('http://localhost:4000/cat');
       setCats(response.data.cat);
     } catch (error) {
       console.error('Erro ao buscar gatos:', error);
