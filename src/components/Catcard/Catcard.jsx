@@ -7,18 +7,18 @@ const CatCard = () => {
   const [cats, setCats] = useState([]);
   const [selectedCat, setSelectedCat] = useState(null);
 
-  useEffect(() => {
-    const fetchCats = async () => {
-      try {
-        const response = await axios.get('http://localhost:4000/cat');
-        setCats(response.data.cat);
-      } catch (error) {
-        console.error('Erro ao buscar gatos:', error);
-      }
-    };
+  const fetchCats = async () => {
+    try {
+      const response = await axios.get('http://localhost:4000/cat');
+      setCats(response.data.cat);
+    } catch (error) {
+      console.error('Erro ao buscar gatos:', error);
+    }
+  };
 
+  useEffect(() => {
     fetchCats();
-  }, []);
+  }, []); 
 
   const handleAdoptClick = (cat) => {
     setSelectedCat(cat);
@@ -29,7 +29,6 @@ const CatCard = () => {
   };
 
   const handleCatAdoption = (catId) => {
-  
     setCats(cats.filter(cat => cat.id !== catId));
   };
 
