@@ -4,12 +4,12 @@
   width: 100%;
   margin: 34px auto;
   text-align: center;
-  font-family: 'Lato', sans-serif; /* Usando a fonte Lato */
+  font-family: 'Lato', sans-serif;  
 }
 
 .depoimentos h2 {
   color: #b76bbd;
-  font-size: 2.5em; /* Aumentando o tamanho do título */
+  font-size: 2.5em; 
   margin-bottom: 20px;
 }
 
@@ -17,36 +17,36 @@
   width: 63%;
   margin: 20px auto;
   text-align: left;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra mais suave */
-  border-radius: 15px; /* Cantos mais arredondados */
-  padding: 30px; /* Mais espaçamento interno */
-  background-color: #f2f2f2; /* Fundo branco mais suave */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+  border-radius: 15px; 
+  padding: 30px;
+  background-color: #f2f2f2;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .depoimento {
-  background-color: #ffffff; /* Fundo branco puro */
-  border: none; /* Removendo a borda */
+  background-color: #ffffff; 
+  border: none; 
   padding: 25px;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais presente */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .depoimento p {
-  font-size: 1.2em; /* Texto um pouco maior */
-  line-height: 1.7; /* Melhorando a legibilidade */
-  color: #333; /* Cinza escuro para o texto */
+  font-size: 1.2em; 
+  line-height: 1.7; 
+  color: #333; 
 }
 
 .depoimento span {
   font-style: italic;
-  color: #777; /* Cinza claro para o nome */
+  color: #777;
   display: block;
   margin-top: 15px;
-  font-size: 1em; /* Ajustando o tamanho da fonte do nome */
+  font-size: 1em;
 }
 
 .controles {
@@ -57,17 +57,17 @@
 .botaoAnterior,
 .botaoProximo {
   background-color: #b66ac6;
-  color: white; /* Texto branco */
+  color: white; 
   border: none;
-  padding: 12px 25px; /* Botões maiores */
+  padding: 12px 25px; 
   margin: 0 15px;
-  border-radius: 8px; /* Cantos mais arredondados */
+  border-radius: 8px; 
   cursor: pointer;
   transition: background-color 0.3s;
-  font-family: 'Lato', sans-serif; /* Usando a fonte Lato */
+  font-family: 'Lato', sans-serif; 
 }
 
 .botaoAnterior:hover,
 .botaoProximo:hover {
-  background-color: #9345b4; /* Roxo mais escuro e vibrante */
+  background-color: #9345b4; 
 }
