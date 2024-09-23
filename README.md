@@ -17,8 +17,11 @@ Express.js: v4.20.0
 #Sobre a aplicação:
 
 Navbar: Menu de navegação com o titulo
+![image](https://github.com/user-attachments/assets/afd687eb-593b-4206-b1f6-2698e850ca43)
+
 
 Seção de Apresentação: Conteúdo envolvente que descreve a missão da página e a importância da adoção de gatos FIV+ e FeLV+.
+
 
 Cards de Gatos: Galeria com fotos e informações individuais de cada gato disponível para adoção.
 
